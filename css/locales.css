@@ -1,0 +1,60 @@
+.local-article{
+    text-align: center;
+}
+.local-titulo{
+    color: #96885F;
+    font-family: 'Teko';
+    font-size: 3.8em;
+    font-weight: bold;
+}
+.local-titulo span{
+    color: #e1e1e1;
+}
+.local-parr{
+    font-family: 'Raleway';
+    font-size: 1.25em;
+    word-spacing: .2em;
+    color: #e1e1e1;
+}
+.local-titulo2{
+    color: #96885F;
+    font-family: 'Teko';
+    font-size: 3em;
+    font-weight: bold;
+}
+.local-sub-titulo{
+    color: #e1e1e1;
+    font-family: 'Teko';
+    font-size: 2.7em;
+    font-weight: bold;
+}
+@media screen and (max-width: 800px){
+    .local-sub-titulo{
+        margin-top: 1em;
+    }
+}
+
+.local-div-img img{
+    margin-top: 1em;
+    width: 450px;
+    height: 450px;
+    object-fit:cover;
+}
+.mapa{
+    margin-top: 1em;
+    width: 500px;
+    height: 500px;
+}
+
+.part-1{
+    margin-top: 5em;
+}
+
+.local-fondo{
+    margin-top: 5em;
+    padding: 4em 0;
+    background-color: #2c2c2c;
+}
+
+
+

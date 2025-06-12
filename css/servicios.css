@@ -1,0 +1,105 @@
+:root{ /*SELECTOR PADRE*/
+    
+    --color-titulos: #282D31;
+    --color-fondo: #FAFAFA;
+}
+
+
+* {  /*SELECTOR UNIVERSAL*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-fondo); 
+    background-size: cover;
+    background-color:#252525;
+    background-size: cover;
+}
+
+/*INICIO DE PORTADA*/
+
+.portada_section{
+    background-color: #252525;
+}
+
+.portada{
+    padding: 2.3em 2em 2em 3em;
+}
+
+.portada h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #96885F;
+    text-align: center;
+    margin-top: 2.2em;
+}
+
+.p-1{
+    font-size: 1em;
+    font-family: 'Raleway';
+    text-align:center;
+    color: #FFFFFF;
+    margin-right: 7.1em;
+}
+
+.p-2{
+    font-size: 1em;
+    font-family: 'Raleway';
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 7.1em;
+}
+
+/*IMAGENES 1 y 3 */
+
+.img-1{
+    width: 80%;
+    height: 80%;
+    float: left;
+    padding: 4em 4em 0em 0em;
+    margin-left: 7em;
+    transition: all 1s ease-in-out;
+}
+
+/*IMAGENES 2 y 4 */
+
+.img-2{
+    width: 80%;
+    height: 80%;
+    float: right;
+    padding: 4em 4em 0em 0em;
+    margin-right: 3em;
+    transition: all 1s ease-in-out;
+}
+
+/*IMAGENES HOVER */
+
+.img-1:hover{
+    box-shadow: #FAFAFA;
+    transform: scale(1.1);
+}
+
+.img-2:hover{
+    box-shadow: #FAFAFA;
+    transform: scale(1.1);
+}
+
+/*INICIO DE SECCION 1*/
+.seccion1{
+    background-color:#2C2C2C;
+}
+
+/* INICIO DE SECCION 2 */
+.seccion2{
+    background-color: #252525;
+}
+/* FIN DE SECCION 2 */
+
+/* INICIO DE SECCION 3*/
+.seccion3{
+    background-color: #2C2C2C;
+}
+/* FIN DE SECCION 3 */

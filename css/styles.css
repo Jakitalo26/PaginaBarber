@@ -1,0 +1,253 @@
+/* ESPACIO BANNER */
+.mybanner{
+    margin-top: 8.65em; 
+}
+/* FIN ESPACIO BANNER */
+
+/* INICIO ENCAZADO */
+.encabezado{
+    margin: 3em 0;
+    text-align: center;
+}
+section .titulo-gen{
+    color: #96885F;
+    font-family: 'Teko';
+    font-size: 7em;
+}
+section .sub-titulo-gen{
+    color: #e1e1e1;
+    font-family: 'Raleway';
+    font-size: 1.6em;
+}
+@media screen and (max-width: 800px){
+    section .titulo-gen{
+        font-size: 6em;
+        line-height: 1em;
+        margin-bottom: .5em;
+    }
+    section .sub-titulo-gen{
+        font-size: 1.4em;
+    }
+}
+/* FIN ENCABEZADO */
+
+/* INICIO SECTION 1 */
+
+.ancho-article{
+    width: 100%;
+}
+.par-index{
+    font-family: 'Raleway';
+    font-size: 1.3em;
+    text-align: justify;
+    word-spacing: .2em;
+    color: #e1e1e1;
+}
+
+/* ----- */
+.sec-img{
+    text-align: end;
+}
+.sec-par{
+    padding-top: .8em;
+    padding-right: 3em;
+    margin: auto;
+}
+@media screen and (max-width: 800px){
+    .sec-par{
+        padding-right: 1em;
+    }
+}
+/* FIN SECTION 1 */
+
+/* INICIO SECTION 2 */
+.fondo{
+    margin-top: 4em;
+    padding: 4em 0;
+    background-color: #2c2c2c;
+}
+.ancho-article2{
+    max-width: 1350px;
+}
+.subtittle-sec{
+    color: #96885F;
+    font-family: 'Teko';
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: .7em;
+}
+.subtittle-sec span{
+    color: #e1e1e1;
+}
+
+.sec-par2{
+    padding-top: .8em;
+    padding-left: 3em;
+    margin: auto;
+}
+@media screen and (max-width: 800px){
+    .subtittle-sec{
+        font-size: 3.6em;
+        text-align: center;
+    }
+    .sec-par2{
+        padding-left: .75em;
+    }
+}
+/* FIN SECTION 2 */
+
+/* INICIO SECTION 3 */
+.ancho-article3{
+    max-width: 1350px;
+}
+.subtittle-sec3{
+    padding-top: .8em;
+    color: #96885F;
+    font-family: 'Teko';
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: .7em;
+    text-align: right;
+}
+.subtittle-sec3 span{
+    color: #e1e1e1;
+}
+.sec-img3{
+    text-align: end;
+}
+.sec-par3{
+    padding-top: .8em;
+    padding-right: 3em;
+    margin: auto;
+}
+@media screen and (max-width: 800px){
+    .subtittle-sec3{
+        font-size: 3.6em;
+        text-align: center;
+    }
+    .sec-par3{
+        padding-right: 1em;
+    }
+}
+/* FIN SECTION 3 */
+
+/* SECTION 4 */
+.ancho-article4{
+    max-width: 1100px;
+}
+.par-index4{
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-weight: bold;
+    font-size: 2.2em;
+    text-align: left;
+    color: #96885F;
+}
+.sec-par4{
+    margin: auto;
+}
+.sec-img4{
+    text-align: end;
+}
+.row-boton{
+    width: 33%;
+    margin:auto;
+    margin-top: 3em;
+    margin-bottom: 2.3em;
+}
+.btn-comunidad{
+    padding: .3em;
+    text-decoration: none;
+    color: #e1e1e1;
+    font-family: 'Teko';
+    font-weight: bold;
+    font-size: 1.8em;
+    border: #96885F solid 4px;
+    text-align: center;
+}
+.btn-comunidad:hover{
+    background-color: #96885F;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+}
+
+@media screen and (max-width: 800px){
+    .par-index4{
+        text-align: center;
+    }
+    .row-boton{
+        width: 45%;
+    }
+}
+/* FIN SECTION 4 */
+
+/* INICIO SECTION 5 */
+.ancho-article5{
+    max-width: 1350px;
+    text-align: center;
+    margin-bottom: 6em;
+}
+.subtittle-sec5{
+    margin-top: 2em;
+    color: #96885F;
+    font-family: 'Teko';
+    font-size: 3.1em;
+    font-weight: bold;
+}
+.tittle-sec5{
+    color: #e1e1e1;
+    font-family: 'Teko';
+    font-size: 4em;
+    font-weight: bold;
+}
+.sec-iconos{
+    margin-top: 7em;
+}
+.icono5{
+    font-size: 1.4em;
+}
+.p-encabezado{
+    margin-top: 1.4em;
+    color: #e1e1e1;
+    font-family: 'Teko';
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.p-comentario{
+    margin: auto;
+    width: 380px;
+    margin-top: 3em;
+    color: #e1e1e1;
+    font-family: 'Raleway';
+    font-size: 1.3em;
+}
+.p-usuario{
+    margin-top: 1.4em;
+    margin-bottom: 3em;
+    color: #e1e1e1;
+    font-family: 'Teko';
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.p-usuario1{
+    margin-top: 3.6em;
+}
+.p-usuario2{
+    margin-top: 2.5em;
+}
+@media screen and (max-width: 800px){
+    .p-encabezado{
+        margin-top: 1em;
+    }
+    .p-comentario{
+        margin-top: 2em;
+    }
+    .p-usuario{
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    .elementocar2{
+        display: none;
+    }
+}
+/* FIN SECTION 5 */

@@ -1,0 +1,176 @@
+body{
+    background-color: var(--color-fondo); /*para seleccionar un elememto padre se coloca var() anteriormente*/
+    /* background-image: url(../IMG/img_2.jpg); */
+    background-size: cover;
+}
+
+
+.img-cuerpo{
+    width: 540px;
+    height: 750px ;
+    justify-content: center;
+  
+    
+}
+
+
+
+/*cuerpo 1*/
+
+
+.container11{
+  
+
+    width: 90%;
+    padding: 0em 7em;
+    
+
+
+}
+.contenido{   
+  
+  
+    
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.cuerpo1{
+
+    background-color: #252525;
+    justify-content: center;
+    display: flex;
+    
+}
+.titulo-1{
+    
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #EFA758;
+    font-size: 5.5em;
+}
+
+.textcorte{
+    text-align:center;
+    color: #FAFAFA;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    
+    
+ 
+}
+
+.textcorte2{
+    text-align:justify;
+    color: #FAFAFA;
+    font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
+}
+
+
+
+/*......fin       */
+
+
+/*cuerpo 2----------------*/
+.titulo-2{
+    
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #EFA758;
+    font-size: 5.5em;
+    text-align: center;
+  
+
+}
+
+.container2{
+
+    background-color: #2C2C2C;
+    border: 2px solid #EFA758;
+    width: 90%;
+    padding: 5em 7em;
+}
+
+.cuerpo2{
+
+   justify-content: center;
+    display: flex;
+}
+
+.contenido2{   
+  
+    width: 650px;
+    margin: auto;
+    
+}
+
+
+.img-cuerpo2{
+    justify-content: center;
+    width:550PX;
+    height: 150px;
+  
+   
+    
+}
+/**fin---------------------------/
+
+
+//** titulo cuerpo3  **/
+
+.titulo-3{
+    
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #EFA758;
+    font-size: 5em;
+    text-align: center;
+}
+  
+.img2{
+    width: 600px;
+    height: 320px;
+    border: 4px solid #EFA758;
+}
+
+.cuerpo3{
+
+    justify-content: center;
+    margin: auto;
+    display: flex;
+ }
+
+
+.container3{
+/*
+    background-color: #2C2C2C;
+   */ width: 90%; 
+    padding: 7em 7em;
+    justify-content: center;
+}
+
+.titulo-tarjeta{
+text-align: center;
+color: #FAFAFA;
+font-size: 1.2em;
+
+text-shadow: 1px 1px 0 #EFA758, -1px -1px 0 #EFA758, 1px -1px 0 #EFA758, -1px 1px 0 ;
+
+
+}
+.CARD{
+    justify-content: center;
+    
+}
+ /* TITULO3*/
+ .titulo-4{
+    
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+}
